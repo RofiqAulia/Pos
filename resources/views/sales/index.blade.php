@@ -9,5 +9,6 @@
     <h1>Halaman Transaksi Point of Sales</h1>
     <p>Ini adalah halaman transaksi POS.</p>
     <!-- Tambahkan formulir atau konten transaksi di sini -->
+    <a href="{{ url('/') }}">Kembali ke Halaman Utama</a>
 </body>
 </html>
