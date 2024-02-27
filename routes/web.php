@@ -30,3 +30,8 @@ Route::prefix('category')->group(function () {
 Route::get('/user/{id}/name/{name}', [UserController::class, 'show']);
 
 Route::get('/sales', [SalesController::class, 'index']);
+
+
+Route::get('/user/profile', [UserController::class, 'showProfile']);
+Route::get('/user/profile/edit', [UserController::class, 'showEditProfileForm']);
+Route::post('/user/profile', [UserController::class, 'updateProfile']);
