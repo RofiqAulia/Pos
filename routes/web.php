@@ -78,8 +78,3 @@ Route::get('/greeting', function () {
     return view('blog.hello', ['name' => 'Rofiq']);
     });
 Route::get('/greeting', [WelcomeController::class, 'greeting']);
-// Route untuk mengirim
-Route::post('/send-message', function (Request $request){
-$data = $request->all();
-dd($data);
-});
