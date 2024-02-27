@@ -10,6 +10,7 @@
     <p>Ini adalah halaman profil pengguna.</p>
     <p>ID Pengguna: {{ $id }}</p>
     <p>Nama Pengguna: {{ $name }}</p>
+    <a href="{{ url('/user/profile') }}">Update Profil</a><br>
     <a href="{{ url('/') }}">Kembali ke Halaman Utama</a>
 </body>
 </html>
