@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User; // Pastikan Anda mengimpor model User jika belum melakukannya
+use App\Models\User; 
 
 class UserController extends Controller
 {
