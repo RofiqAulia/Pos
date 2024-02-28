@@ -3,27 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+// UserController.php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\User; // Pastikan Anda mengimpor model User jika belum melakukannya
 
 class UserController extends Controller
 {
-    public function showProfile()
+    public function showUserProfile($id, $name)
     {
-        // Mendapatkan data pengguna dari autentikasi atau dari mana pun sumbernya
-        $user = auth()->user();
-    
+        // Mendapatkan data pengguna berdasarkan ID
+        $user = User::findOrFail($id);
+        
+        // Mengirimkan data pengguna ke view untuk ditampilkan
         return view('user.profile', compact('user'));
     }
-    
-    public function updateProfile(Request $request)
-    {
-        $validatedData = $request->validate([
-            'name' => 'required|string|max:255',
-        ]);
-    
-        // Menyimpan nama pengguna ke profil pengguna (misalnya, ke database)
-       
-    
-        return redirect('/user/profile');
-    }
-
 }
