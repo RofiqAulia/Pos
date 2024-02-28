@@ -8,7 +8,7 @@
     <title>Halaman Utama</title>
 </head>
 <body>
-    <h1>Selamat Datang di Aplikasi Point of Sales</h1>
+    <h1>Selamat Datang di Aplikasi POS</h1>
     <p>Ini adalah halaman utama aplikasi POS.</p>
     <a href="{{ url('/category/food-beverage') }}">Lihat Daftar Produk Food & Beverage</a><br>
     <a href="{{ url('/category/beauty-health') }}">Lihat Daftar Produk Beauty & Health</a><br>
