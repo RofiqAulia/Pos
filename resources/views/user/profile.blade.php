@@ -8,7 +8,7 @@
     <title>User Profile</title>
 </head>
 <body>
-    <h1>Selamat Datang</h1>
+    <h1>User Profile</h1>
 
 </body>
 </html>

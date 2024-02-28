@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile POS</title>
+    <title>Transaksi POS</title>
 </head>
 <body>
-    <h1>Halaman Profile</h1>
+    <h1>Halaman Transaksi Point of Sales</h1>
+    <p>Ini adalah halaman transaksi POS.</p>
     <!-- Tambahkan formulir atau konten transaksi di sini -->
     <a href="{{ url('/') }}">Kembali ke Halaman Utama</a>
 </body>
