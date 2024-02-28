@@ -8,11 +8,7 @@
     <title>User Profile</title>
 </head>
 <body>
-    <h1>User Profile</h1>
-    <p>ID: {{ $user->id }}</p>
-    <p>Name: {{ $user->name }}</p>
-    <!-- Tampilkan informasi profil pengguna lainnya sesuai kebutuhan -->
-    <h1>Hello, {{ $name }}</h1>
-    <h1>You are {{ $occupation }}</h1>
+    <h1>Selamat Datang</h1>
+
 </body>
 </html>
