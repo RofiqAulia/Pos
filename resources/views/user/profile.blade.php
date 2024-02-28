@@ -12,5 +12,7 @@
     <p>ID: {{ $user->id }}</p>
     <p>Name: {{ $user->name }}</p>
     <!-- Tampilkan informasi profil pengguna lainnya sesuai kebutuhan -->
+    <h1>Hello, {{ $name }}</h1>
+    <h1>You are {{ $occupation }}</h1>
 </body>
 </html>
